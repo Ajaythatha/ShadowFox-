@@ -1,0 +1,73 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f3f0f0;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header styles */
+header {
+  background: linear-gradient(90deg, #1c1c1c, #0055A4);
+  color: #d47070;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation styles */
+nav {
+  background: #003366;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+nav a {
+  color: #e18f8f;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffcc00;
+}
+
+/* Main content */
+main {
+  padding: 20px;
+}
+
+/* Footer styles */
+footer {
+  background: #100f0f;
+  color: #644f4f;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 20px;
+}
+
+/* Player and schedule cards */
+.card {
+  background: #e3c2c2;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 10px 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+}
